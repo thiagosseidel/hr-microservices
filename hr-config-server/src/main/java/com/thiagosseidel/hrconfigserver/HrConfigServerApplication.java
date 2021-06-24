@@ -10,11 +10,11 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 public class HrConfigServerApplication implements CommandLineRunner {
 
-	@Value("${spring.cloud.config.server.git.username}")
+	/*@Value("${spring.cloud.config.server.git.username}")
 	private String userName;
 	
 	@Value("${spring.cloud.config.server.git.password}")
-	private String passWord;
+	private String passWord;*/
 	
 	public static void main(String[] args) {
 		SpringApplication.run(HrConfigServerApplication.class, args);
@@ -23,9 +23,9 @@ public class HrConfigServerApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		System.out.println("USER_NAME = " + userName);
+		/*System.out.println("USER_NAME = " + userName);
 		
-		System.out.println("PASSWORD = " + passWord);
+		System.out.println("PASSWORD = " + passWord);*/
 		
 	}
 
